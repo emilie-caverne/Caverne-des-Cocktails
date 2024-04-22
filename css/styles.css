@@ -1,0 +1,83 @@
+:root{
+    --backgroud-color : rgba(15, 0, 48, 0.644);
+    --cards-color : rgba(243, 193, 127, 0.925);
+    --font-color : rgb(72, 40, 85);
+}
+
+p {
+    color: bisque;
+    text-align: center;
+}
+
+header {
+    background-color: rgb(15, 0, 48);
+    padding: 10px 0;
+    margin-bottom: 25px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+header img {
+    width: 60px;
+}
+
+header h1 {
+    font-family: 'Unbounded';
+    margin-left: 5%;
+    color: white;
+}
+
+body {
+    font-family: 'Poiret One', sans-serif;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: var(--backgroud-color);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2{
+    color: #cccccc;
+    text-align: center;
+}
+.cocktail {
+    background-color: var(--cards-color);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.cocktail h2 {
+    color: var(--font-color);
+    margin-bottom: 10px;
+}
+.ingredients {
+    font-style: italic;
+    color: var(--font-color);
+}
+.instructions {
+    font-weight: bold;
+    color: var(--font-color);
+}
+video, audio {
+    width: 100%;
+    margin: 20px 0;
+}
+
+footer a {
+    color: var(--cards-color);
+    padding: 4px;
+    border: solid 2px;
+    border-radius: 50%;
+}
+
+footer a:hover {
+    color: rgb(240, 166, 76);
+    padding: 3px;
+    transition: 1ms;
+}
