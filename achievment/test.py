@@ -1,1 +1,2 @@
-print("Voici la liste des cocktails")
+while(True):
+    print("LoL")
